@@ -1,6 +1,11 @@
 #pragma once
 #include <gslib.h>
 #include <string>
+/*
+位置、回転、サイズ
+UnityのTransformをイメージ(親子関係を直接持っているわけではない)
+松尾裕也
+*/
 struct Transform
 {
 	GSvector3 m_scale;
