@@ -22,8 +22,9 @@ public:
 private:
 	virtual void start() override
 	{
-		//データのlordをクラス化する
-	
+		//Resourceのlordがスレッドでできないためとりあえずここに記載
+		DataManager::load(MeshLoadDesc(MESH_ID::PLAYER,"CyberSoldier/CyberSoldier"));
+
 
 		m_gameTread = std::make_unique<MyGameThread>(&m_renderer);
 		m_gameTread->start();

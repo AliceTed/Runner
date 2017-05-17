@@ -7,7 +7,7 @@
 */
 enum class MESH_ID :unsigned int
 {
-	SPHERE,
+	PLAYER,
 	SKYDOME,
 	SIZE
 };

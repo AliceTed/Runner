@@ -148,6 +148,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="Script\character\Character.h" />
     <ClInclude Include="Script\data\DataManager.h" />
     <ClInclude Include="Script\data\define\MeshLoadDesc.h" />
     <ClInclude Include="Script\data\define\ShaderLoadDesc.h" />
@@ -201,6 +202,7 @@
     <ClInclude Include="Script\util\VectorUtil.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="Script\character\Character.cpp" />
     <ClCompile Include="Script\data\DataManager.cpp" />
     <ClCompile Include="Script\gamethread\GameThread.cpp" />
     <ClCompile Include="Script\gamethread\MyGameThread.cpp" />

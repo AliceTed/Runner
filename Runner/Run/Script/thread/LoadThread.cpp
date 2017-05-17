@@ -15,12 +15,6 @@ LoadThread::~LoadThread()
 
 void LoadThread::run()
 {
-	while (!m_isEnd)
-	{
-		m_dataManager->load(TextureLoadDesc(TEXTURE_ID::TITLE_ROGO, "title_rogo"));
-		m_dataManager->load(MeshLoadDesc(MESH_ID::SPHERE, "sphere"));
-		m_isEnd = true;
-	}
 }
 
 bool LoadThread::isEnd() const

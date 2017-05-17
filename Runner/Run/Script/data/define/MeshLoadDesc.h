@@ -12,7 +12,7 @@ struct MeshLoadDesc
 	MeshLoadDesc(MESH_ID _id, const std::string& _name,bool _isShader=false)
 		:m_id(_id),
 		m_name(_name),
-		m_path("./asset/mesh/"),
+		m_path("./Asset/Mesh/"),
 		m_extension(".msh"),
 		m_isShader(_isShader)
 	{}
