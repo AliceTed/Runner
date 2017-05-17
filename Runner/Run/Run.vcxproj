@@ -193,6 +193,10 @@
     <ClInclude Include="Script\scene\Title.h" />
     <ClInclude Include="Script\shape\Ray.h" />
     <ClInclude Include="Script\shape\Sphere.h" />
+    <ClInclude Include="Script\state\CharacterState.h" />
+    <ClInclude Include="Script\state\CharacterStateManager.h" />
+    <ClInclude Include="Script\state\CHARACTER_STATE.h" />
+    <ClInclude Include="Script\state\ICharacterState.h" />
     <ClInclude Include="Script\thread\CriticalSection.h" />
     <ClInclude Include="Script\thread\IRunnable.h" />
     <ClInclude Include="Script\thread\LoadThread.h" />
@@ -233,6 +237,7 @@
     <ClCompile Include="Script\scene\Load.cpp" />
     <ClCompile Include="Script\scene\SceneManager.cpp" />
     <ClCompile Include="Script\scene\Title.cpp" />
+    <ClCompile Include="Script\state\CharacterStateManager.cpp" />
     <ClCompile Include="Script\thread\CriticalSection.cpp" />
     <ClCompile Include="Script\thread\LoadThread.cpp" />
     <ClCompile Include="Script\thread\Thread.cpp" />
