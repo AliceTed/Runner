@@ -148,6 +148,10 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="Script\animation\Animation.h" />
+    <ClInclude Include="Script\animation\AnimationLerp.h" />
+    <ClInclude Include="Script\animation\AnimationTimer.h" />
+    <ClInclude Include="Script\animation\Animator.h" />
     <ClInclude Include="Script\character\Character.h" />
     <ClInclude Include="Script\data\DataManager.h" />
     <ClInclude Include="Script\data\define\MeshLoadDesc.h" />
@@ -158,9 +162,11 @@
     <ClInclude Include="Script\gamethread\MyGameThread.h" />
     <ClInclude Include="Script\id\CastID.h" />
     <ClInclude Include="Script\id\MESH_ID.h" />
+    <ClInclude Include="Script\id\OCTREE_ID.h" />
     <ClInclude Include="Script\id\RENDER_TARGET_ID.h" />
     <ClInclude Include="Script\id\SHADER_ID.h" />
     <ClInclude Include="Script\id\TEXTURE_ID.h" />
+    <ClInclude Include="Script\map\Map.h" />
     <ClInclude Include="Script\renderer\BlendFunc.h" />
     <ClInclude Include="Script\renderer\command\ClearCommand.h" />
     <ClInclude Include="Script\renderer\command\IRenderCommand.h" />
@@ -173,7 +179,6 @@
     <ClInclude Include="Script\renderer\desc\LookAtDesc.h" />
     <ClInclude Include="Script\renderer\desc\MeshRenderDesc.h" />
     <ClInclude Include="Script\renderer\desc\SkyBoxRenderDesc.h" />
-    <ClInclude Include="Script\renderer\desc\SphereShaderDesc.h" />
     <ClInclude Include="Script\renderer\desc\SpriteRenderDesc.h" />
     <ClInclude Include="Script\renderer\desc\StringRenderDesc.h" />
     <ClInclude Include="Script\renderer\DisplayList.h" />
@@ -186,6 +191,8 @@
     <ClInclude Include="Script\scene\SceneManager.h" />
     <ClInclude Include="Script\scene\SceneMode.h" />
     <ClInclude Include="Script\scene\Title.h" />
+    <ClInclude Include="Script\shape\Ray.h" />
+    <ClInclude Include="Script\shape\Sphere.h" />
     <ClInclude Include="Script\thread\CriticalSection.h" />
     <ClInclude Include="Script\thread\IRunnable.h" />
     <ClInclude Include="Script\thread\LoadThread.h" />
@@ -202,12 +209,17 @@
     <ClInclude Include="Script\util\VectorUtil.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="Script\animation\Animation.cpp" />
+    <ClCompile Include="Script\animation\AnimationLerp.cpp" />
+    <ClCompile Include="Script\animation\AnimationTimer.cpp" />
+    <ClCompile Include="Script\animation\Animator.cpp" />
     <ClCompile Include="Script\character\Character.cpp" />
     <ClCompile Include="Script\data\DataManager.cpp" />
     <ClCompile Include="Script\gamethread\GameThread.cpp" />
     <ClCompile Include="Script\gamethread\MyGameThread.cpp" />
     <ClCompile Include="Script\id\CastID.cpp" />
     <ClCompile Include="Script\main.cpp" />
+    <ClCompile Include="Script\map\Map.cpp" />
     <ClCompile Include="Script\renderer\command\ClearCommand.cpp" />
     <ClCompile Include="Script\renderer\command\LookAtCommand.cpp" />
     <ClCompile Include="Script\renderer\command\MeshRenderCommand.cpp" />
